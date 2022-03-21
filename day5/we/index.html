@@ -1,0 +1,69 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .container {
+            width: 65%;
+            height: 100px;
+            background-color: #262626;
+            margin: auto;
+            display: flex;
+            
+        }
+
+        .container>div:nth-child(1) {
+            width: 60%;
+            height: 100%;
+            font-size: 25px;
+            color: #ffffff63;
+            padding: 30px;
+            font-family: sans-serif;
+        }
+
+        .container>div:nth-child(2) {
+            color: rgba(255, 255, 255, 0.212);
+            width: 20%;
+            height: 80%;
+            font-size: 15px;
+            padding: 40px;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        select {
+            color: rgba(255, 255, 255, 0.438);
+            background-color: transparent;
+            padding: 1px;
+            border: 0px;
+            font-size: 15px;
+        }
+        select:hover{
+            background-color: yellow;
+            color: black;
+        }
+        .container>div:hover{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="join">MEGAWIDTH</div>
+        <div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Blog</div>
+            <div>
+                <select name="" id="">
+                    <option>Page</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

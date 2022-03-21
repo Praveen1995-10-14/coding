@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outside{
+            height: 550px;
+            width: 1000px;
+            display: flex;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .inside {
+            width: 400px;
+            height: 550px;
+            margin-left: 50px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            
+        }
+        .inside1 {
+            width: 400px;
+            height: 550px;
+            margin-left: 100px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            background-color: black;
+        }
+        .line {
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight: 500;
+            margin-left: 30px;
+        }
+        .input{
+            width: 300px;
+            height: 40px;
+            border: 2px solid black;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            line-height: 10px;
+        }
+        .button {
+            width: 300px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .box2 {
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight: 500;
+            margin-left: 30px;
+            color: white;
+            margin-top: 100px;
+        }
+        .masai {
+            font-size: 60px;
+            font-family: sans-serif;
+            font-weight: 500;
+            margin-left: 30px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .color {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="outside">
+        <div class="inside">
+            <h3 class="line">NAME</h3>
+            <input type="text" class="input">
+            <h3 class="line">EMAIL</h3>
+            <input type="email" class="input">
+            <h3 class="line">MOBILE</h3>
+            <input type="tel" class="input">
+            <h4 class="line" style="color: red;">Enter a valid number</h4>
+            <button class="button">REGISTER</button>
+        </div>
+        <div class="inside1">
+            <div class="text">
+                <p class="box2">NAME<p>
+                <h1 class="masai">MASAI</h1>
+                <h2 class="line color">EMAIL</h2>
+                <p class="line color">email@masaischool.com</p><br>
+                <h1 class="line color">MOBILE</h1>
+                <h1 class="line color">9873818424</h1>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
